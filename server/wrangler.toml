@@ -1,0 +1,4 @@
+name = "hono-firebase-auth"
+main = "dist/worker.js"
+compatibility_date = "2024-07-31"
+minify = true

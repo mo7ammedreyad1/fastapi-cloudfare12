@@ -1,0 +1,18 @@
+{
+  "name": "hono-firebase-auth",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "tsc && esbuild dist/index.js --bundle --minify --format=esm --outfile=dist/worker.js",
+    "deploy": "npm run build"
+  },
+  "dependencies": {
+    "hono": "^4.2.7",
+    "firebase": "^9.23.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "typescript": "^5.4.0"
+  }
+}
